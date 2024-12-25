@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-900 via-gray-800 to-black">
+    <section className="relative h-[850px] flex items-center justify-center bg-gradient-to-br from-gray-900 via-gray-800 to-black">
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute top-0 left-0 w-32 md:w-64 h-32 md:h-64 bg-gradient-to-br from-indigo-700 to-purple-700 rounded-full blur-3xl opacity-30 animate-pulse"></div>
         <div className="absolute bottom-0 right-0 w-32 md:w-64 h-32 md:h-64 bg-gradient-to-br from-purple-700 to-indigo-700 rounded-full blur-3xl opacity-30 animate-pulse delay-200"></div>
