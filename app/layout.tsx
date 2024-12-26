@@ -2,7 +2,7 @@ import './globals.css';
 import type { Metadata } from 'next';
 import { ThemeProvider } from '@/components/ui/theme-provider';
 import { Analytics } from '@/components/Analytics';
-import { LazyLoad } from '@/components/ui/LazyLoad';
+
 import { inter } from './fonts';
 
 export const metadata: Metadata = {
@@ -23,9 +23,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
           {children}
-          <LazyLoad>
-            <Analytics />
-          </LazyLoad>
+          <Analytics />
         </ThemeProvider>
       </body>
     </html>
