@@ -1,8 +1,10 @@
+
 "use client";
 
 import { Github, Linkedin, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
+import Image from "next/image";
 
 export function About() {
   return (
@@ -11,10 +13,12 @@ export function About() {
         <div className="flex flex-col lg:flex-row items-center gap-8 lg:gap-16">
           <div className="w-full lg:w-1/2">
             <div className="relative">
-              <img
+              <Image
                 src="https://images.unsplash.com/photo-1628258334105-2a0b3d6efee1?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvZ3JhbW1lcnxlbnwwfHwwfHx8MA%3D%3D"
-                alt="Profile"
+                alt="Developer working on a laptop"
                 className="rounded-2xl shadow-2xl w-full max-w-sm sm:max-w-md mx-auto transform hover:scale-105 transition-transform duration-300"
+                width={800}
+                height={800}
               />
               <div className="absolute -bottom-4 -right-4 w-16 sm:w-24 h-16 sm:h-24 bg-blue-500 rounded-full opacity-20 blur-xl"></div>
               <div className="absolute -top-4 -left-4 w-20 sm:w-32 h-20 sm:h-32 bg-purple-500 rounded-full opacity-20 blur-xl"></div>
@@ -42,7 +46,7 @@ export function About() {
                   className="hover:bg-blue-500/20 hover:scale-110 transition-all duration-300"
                   aria-label="Github Profile"
                 >
-                  <Github className="h-5 w-5 sm:h-6 sm:w-6 text-gray-300" />
+                  <Github className="h-6 w-6 text-gray-300" />
                 </Button>
               </Link>
               
@@ -57,7 +61,7 @@ export function About() {
                   className="hover:bg-blue-500/20 hover:scale-110 transition-all duration-300"
                   aria-label="LinkedIn Profile"
                 >
-                  <Linkedin className="h-5 w-5 sm:h-6 sm:w-6 text-gray-300" />
+                  <Linkedin className="h-6 w-6 text-gray-300" />
                 </Button>
               </Link>
 
@@ -70,7 +74,7 @@ export function About() {
                   className="hover:bg-blue-500/20 hover:scale-110 transition-all duration-300"
                   aria-label="Email"
                 >
-                  <Mail className="h-5 w-5 sm:h-6 sm:w-6 text-gray-300" />
+                  <Mail className="h-6 w-6 text-gray-300" />
                 </Button>
               </Link>
             </div>

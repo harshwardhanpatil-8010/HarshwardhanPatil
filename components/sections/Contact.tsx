@@ -13,12 +13,12 @@ export function Contact() {
       <div className="container px-4 sm:px-6 mx-auto max-w-6xl relative z-10">
         <div className="space-y-8 text-center mb-16">
           <h2 className="text-5xl sm:text-6xl md:text-7xl font-black tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-[#22d3ee] via-[#3b82f6] to-[#22d3ee] hover:from-[#3b82f6] hover:via-[#22d3ee] hover:to-[#3b82f6] transition-all duration-700">
-            Let's Connect
+            {"Let's Connect"}
           </h2>
 
           <p className="text-[#cbd5e1] text-xl sm:text-2xl max-w-3xl mx-auto font-light leading-relaxed">
-            I'm always open to new opportunities and exciting collaborations. 
-            <span className="block mt-2 text-[#64748b]">Let's create something amazing together!</span>
+            {"I'm always open to new opportunities and exciting collaborations."} 
+            <span className="block mt-2 text-[#64748b]">{"Let's create something amazing together!"}</span>
           </p>
         </div>
 
