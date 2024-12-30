@@ -31,7 +31,7 @@ export function Hero() {
             className="text-3xl sm:text-4xl md:text-7xl font-extrabold mb-4 md:mb-8 text-[#28d0ff] break-words sm:whitespace-nowrap"
           >
             {"Hi, I'm"}{" "}
-            <span className="text-white hover:text-gray-300 transition-colors duration-300">
+            <span className="text-white hover:text-gray-300 transition-colors duration-300 ">
               Harshwardhan Patil
             </span>
           </h1>
