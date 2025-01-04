@@ -2,8 +2,6 @@
 
 import { Card } from "@/components/ui/card";
 import Image from "next/image";
-import linkedin from "@/public/linkedin.png";
-import gmail from "@/public/gmail.png";
 
 export function Contact() {
   return (
@@ -22,7 +20,7 @@ export function Contact() {
           </p>
         </div>
 
-        <Card className="p-10 sm:p-16 backdrop-blur-2xl border-2 border-white/20 shadow-[0_0_50px_rgba(59,130,246,0.15)] rounded-[2rem] transform hover:-translate-y-3 transition-all duration-500 bg-gradient-to-br from-[#1e293b]/95 to-[#0f172a]/95">
+        <Card className="p-10 sm:p-16 backdrop-blur-2xl border-2 border-white/20 shadow-[0_0_50px_rgba(59,130,246,0.15)] rounded-[2rem] bg-gradient-to-br from-[#1e293b]/95 to-[#0f172a]/95">
           <div className="flex flex-row gap-16 sm:gap-24 items-center justify-center">
             <a 
               href="https://www.linkedin.com/in/harshwardhan-patil-a1bb11289/" 
@@ -30,10 +28,10 @@ export function Contact() {
               rel="noopener noreferrer"
               className="group relative"
             >
-              <div className="absolute -inset-2 bg-gradient-to-r from-[#22d3ee] to-[#3b82f6] rounded-3xl blur-lg opacity-40 group-hover:opacity-75 transition duration-500"></div>
+              <div className="absolute -inset-2 "></div>
               <Image 
-                className="relative w-20 h-20 sm:w-24 sm:h-24 rounded-2xl shadow-2xl group-hover:shadow-[0_0_30px_rgba(34,211,238,0.3)] transform group-hover:-translate-y-2 group-hover:scale-110 transition-all duration-500"
-                src={linkedin} 
+                className="relative w-20 h-20 sm:w-24 sm:h-24 transform group-hover:-translate-y-2 group-hover:scale-110 transition-all duration-500"
+                src="https://www.vectorlogo.zone/logos/linkedin/linkedin-tile.svg"
                 alt="LinkedIn Profile" 
                 width={96}
                 height={96}
@@ -44,13 +42,13 @@ export function Contact() {
               href="mailto:harshwardhan.patil2005@gmail.com"
               className="group relative"
             >
-              <div className="absolute -inset-2 bg-gradient-to-r from-[#3b82f6] to-[#22d3ee] rounded-3xl blur-lg opacity-40 group-hover:opacity-75 transition duration-500 "></div>
+              <div className="absolute -inset-2 "></div>
               <Image 
-                src={gmail} 
+                src="https://www.vectorlogo.zone/logos/gmail/gmail-icon.svg" 
                 alt="Email Contact" 
                 width={96} 
                 height={96} 
-                className="relative w-20 h-20 sm:w-24 sm:h-24 rounded-2xl shadow-2xl group-hover:shadow-[0_0_30px_rgba(59,130,246,0.3)] transform group-hover:-translate-y-2 group-hover:scale-110 transition-all duration-500"
+                className="relative w-20 h-20 sm:w-24 sm:h-24 transform group-hover:-translate-y-2 group-hover:scale-110 transition-all duration-500"
               />
             </a>
           </div>
