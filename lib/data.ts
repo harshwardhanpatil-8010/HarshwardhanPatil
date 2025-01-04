@@ -34,7 +34,7 @@ export const skills = [
   },
   {
     name: "ExpressJs",
-    icon: "/expressjs_dark.svg",
+    icon: "https://www.vectorlogo.zone/logos/expressjs/expressjs-icon.svg",
   },
 
   {
