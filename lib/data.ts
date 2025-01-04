@@ -6,31 +6,31 @@ import Image from 'next/image';
 export const skills = [
   {
     name: "HTML",
-    icon: "/html5.svg",
+    icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg",
   },
   {
     name: "CSS",
-    icon: "/css_old.svg",
+    icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg",
   },
   {
     name: "JavaScript",
-    icon: "/javascript.svg",
+    icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg",
   },
   {
     name: "C++",
-    icon: "/c-plusplus.svg",
+    icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg",
   },
   {
     name: "Bootstrap",
-    icon: "/bootstrap.svg",
+    icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-original.svg",
   },
   {
     name: "Tailwind CSS",
-    icon: "/tailwindcss.svg",
+    icon: "https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg",
   },
   {
     name: "MongoDB",
-    icon: "/mongodb.svg",
+    icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
   },
   {
     name: "ExpressJs",
@@ -39,48 +39,48 @@ export const skills = [
 
   {
     name: "React",
-    icon: "/react.svg",
+    icon: "https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg",
   },
   
   {
     name: "Node.js",
-    icon: "/nodejs.svg",
+    icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg",
   },
   {
     name: "TypeScript",
-    icon: "/typescript.svg",
+    icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg",
   },
   {
     name: "Python",
-    icon: "/python.svg",
+    icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
   },
   {
     name: "Flask",
-    icon: "/flask-wordmark-dark.svg",
+    icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/flask/flask-original.svg",
   },
   {
     name: "Django",
-    icon: "/django.svg",
+    icon: "https://cdn.worldvectorlogo.com/logos/django.svg",
   },
   {
     name: "NextJS",
-    icon: "/nextjs_icon_dark.svg",
+    icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg",
   },
   {
     name: "Git",
-    icon: "/git.svg",
+    icon: "https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg",
   },
   {
     name: "Github",
-    icon: "/github-dark.svg",
+    icon: "https://www.vectorlogo.zone/logos/github/github-icon.svg",
   },
   {
     name: "Appwrite",
-    icon: "/appwrite.svg",
+    icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/appwrite/appwrite-original.svg",
   },
   {
     name: "Firebase",
-    icon: "/firebase.svg",
+    icon: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
   },
   {
     name: "AWS",

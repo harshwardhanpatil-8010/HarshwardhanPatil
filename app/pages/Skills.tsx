@@ -78,16 +78,13 @@ export function Skills() {
               ref={(el) => (cardsRef.current[index] = el as HTMLDivElement)}
             >
               <Card className="p-6 sm:p-8 text-center backdrop-blur-sm bg-white/5 hover:bg-white/10 transform transition-all duration-500 hover:scale-110 hover:rotate-3 border border-white/10 rounded-2xl shadow-xl hover:shadow-cyan-500/20 flex flex-col items-center space-y-3 sm:space-y-6">
-                <motion.div
-                  whileHover={{ scale: 1.2, rotate: 10 }}
-                  className="rounded-full p-4 sm:p-6 bg-gradient-to-r from-blue-500 to-teal-500 text-white shadow-md mb-6"
-                >
+                
                   <img
                     src={skill.icon}
                     alt={`${skill.name} icon`}
                     className="h-16 w-16 sm:h-20 sm:w-20 object-contain transition-all duration-300 transform hover:scale-110 hover:rotate-6"
                   />
-                </motion.div>
+
                 <h3 className="text-lg sm:text-2xl font-semibold tracking-wide text-gray-100 mb-3 sm:mb-6">
                   {skill.name}
                 </h3>
