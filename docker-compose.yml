@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  app:
+    # Build the image from the Dockerfile in the current directory
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: nextjs-app
+    # Map port 3000 on the host to port 3000 in the container
+    ports:
+      - "3000:3000"
+    # Restart the container automatically unless it's manually stopped
+    restart: unless-stopped
+    # If you use a .env.local file, you can load it like this:
+    # env_file:
+    #   - .env.local
